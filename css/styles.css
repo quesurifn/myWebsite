@@ -1,0 +1,155 @@
+#zero {
+padding-top: 10px; }
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+a.nostyle:link {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}
+
+a.nostyle:visited {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}
+
+.img-round {
+    border-radius: 50%;
+    margin-left: .5em
+    margin-right: 2em;
+
+}
+
+.navbar-default {
+    background: rgba(255, 255, 255, 0);
+}
+
+
+
+
+.navbar .nav > li > a, .navbar .nav > li > a,
+.navbar .nav > li.current-menu-item > a,
+.navbar .nav > li.current-menu-ancestor > a
+.navbar-brand > a
+
+{
+color:          #d3d3d3;
+font-family: 'Montserrat',sans-serif;
+font-size:      1em;
+text-transform: uppercase;
+}
+
+.buffer {
+    margin: 5px 5px 5px 5px;
+    padding: 2px 2px 2px 2px;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+div.wrapper > div.col-md-4 > div.buffer > img {
+    display: block;
+    margin: 0 auto;
+}
+
+table > td > a > img {
+    margin-right: .05em;
+}
+
+
+#footer {
+    background: #1b1b1b;
+    margin-top: 10%;
+    height: 20vh;
+}
+
+.btn {
+  -o-border-radius:28;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 22px;
+  background: #ffffff;
+  padding: 10px 20px 10px 20px;
+  border: solid #000000 2px;
+  text-decoration: none;
+}
+
+a.btn {
+    display: inline-block;
+    margin: auto;
+}
+
+div.btn-pad {
+    margin-top: 30px;
+}
+
+div.col-md-12 > ul  {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    list-style: none;
+    padding-top: 5rem;
+}
+
+
+div.col-md-12 > ul > li {
+    display: inline-block;
+    margin: 0 .6rem;
+    color: #fff;
+
+}
+
+div.col-md-12 > ul > p {
+    color: #d3d3d3;
+    padding-top: 2rem;
+    font-size: 1em;
+    color: #616161
+}
+
+.social-lg div.col-md-12 > ul > li > a {
+ border: 2px solid #616161;
+ border-radius: 50%;
+ display: inline-block;
+ letter-spacing: normal;
+ text-align: center;
+ height: 4.25rem;
+ width: 4.25rem;
+}
+
+.icon-lg div.col-md-12 > ul > li > a > i {
+    padding-top: .5rem;
+    font-size: 2em;
+}
+
+
+.social-sm div.col-md-12 > ul > li > a {
+border: 2px solid #616161;
+ border-radius: 50%;
+ display: inline-block;
+ letter-spacing: normal;
+ text-align: center;
+ height: 3.25rem;
+ width: 3.25rem;
+
+}
+
+.icon-sm div.col-md-12 > ul > li > a > i {
+    padding-top: .5rem;
+    font-size: 1.5em;
+}
+
+
+@media screen and (min-width: 550px) {
+	.col-xsm-4 {
+		float: left;
+		width: 33.33%;
+	}
