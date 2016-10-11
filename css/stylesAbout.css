@@ -1,63 +1,28 @@
-body {
-  font-family: 'Roboto', sans-serif;
-  font-size: 2rem;
-}
+  body {
+  	font-family: 'Roboto', sans-serif;
+  }
 
 .mug-shot > img {
   border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -3em;
-  border: 1px solid #1b1b1b;
-  position: relative;
+  margin-bottom: 2em;
+  margin-top: 2em;
+
 }
 
 .img-round {
     border-radius: 50%;
     margin-left: .5em
     margin-right: 2em;
-  }
-
-  .aboutMe {
-    padding-top: 5rem;
-
-  }
-.aboutMe > h1 {
-  padding-bottom: 4rem;
 }
-
-#wrapper {
-    max-width: 45rem;
-    overflow: hidden;
-    margin: auto;
-}
-
 .img-responsive {
   height: auto;
   max-width: 100%;
 }
 
-@media screen and (max-width: 550px){
-  #bannerAbout
-{
-  width: 100%;
-  background-position: center top;
-  background-size: cover;
-  background-attachment: scoll;
-  height: 10rem;
-}}
-
-@media screen and (max-width: 719px) {
-#bannerAbout {
-    width: 100%;
-    background-position: center top;
-    background-attachment: scroll;
-    height: 15rem;
-}}
-
-#bannerAbout {
-    width: 100%;
-    background: url(http://placekitten.com/g/1800/800) no-repeat center center / cover;
-    height: 35%;
-    display: block;
+div.wrapper > p {
+  max-width: 568px;
+  margin-left: auto;
+  margin-right: auto;
 }
